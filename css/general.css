@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #737373;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.margin-right-btn {
+  margin-right: 3.2rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid-service {
+  display: grid;
+  row-gap: 4rem;
+  column-gap: 3.2rem;
+}
+
+.grid-3-row-gap {
+  gap: 3.2rem;
+}
+
+.grid-gap {
+  row-gap: 3.2rem;
+  column-gap: 1.6rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.list-item {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.btn-price {
+  text-align: center;
+}
+
+.heading-margin-bottom-top {
+  margin-bottom: 6.4rem;
+}
+
+.grid-test {
+  gap: 4.6rem;
+}
